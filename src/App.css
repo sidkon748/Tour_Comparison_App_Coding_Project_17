@@ -41,25 +41,4 @@
   color: #888;
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-}
 
-.tour-card {
-  background-color: #f5dddd;
-  border-radius: 15px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
-  width: 280px;
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.tour-card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
